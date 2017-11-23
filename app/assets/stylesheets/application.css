@@ -13,3 +13,19 @@
  *= require_tree .
  *= require_self
  */
+
+.tabs {
+  font-size : ;
+  color : red;
+  display: flex;
+  justify-content: space-around;
+}
+.tabs1 {
+  background-color: blue;
+}
+.tabs2 {
+  background-color: red;
+}
+.tabs3 {
+  background-color: green;
+}

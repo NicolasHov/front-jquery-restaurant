@@ -16,12 +16,16 @@
 
 
 
-// A $( document ).ready() block.
-$( document ).ready(function() {
-    console.log( "ready!" );
 
-    // Event setup using a convenience method
-$( "p" ).click(function() {
-    console.log( "You clicked a paragraph!" );
-});
-});
+
+
+// A $( document ).ready() block.
+
+// $( document ).ready(function() {
+//     console.log( "ready!" );
+//
+//     // Event setup using a convenience method
+// $( "p" ).click(function() {
+//     console.log( "You clicked a paragraph!" );
+// });
+// });

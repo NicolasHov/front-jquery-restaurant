@@ -2,14 +2,29 @@
 <html>
   <head>
     <title>Ma BoulanjQuery</title>
-    <%= csrf_meta_tags %>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-t<rack': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <!-- <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script> -->
+
   </head>
 
   <body>
-    
+    <h1>Ma BoulanjQuery</h1>
+
+    <h2>Ca envoy du pâté mon neuveu !</h2>
+
+    <div class="tabs">
+        <div id="tabs1">Presentation</div>
+        <div id="tabs2">Menu</div>
+        <div id="tabs3">Qui sommes-nous ?</div>
+    </div>
+
     <%= yield %>
+
   </body>
 </html>
