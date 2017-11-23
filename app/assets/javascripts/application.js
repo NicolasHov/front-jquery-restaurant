@@ -16,8 +16,19 @@
 //= require_tree .
 
 // A $( document ).ready() block.
-
 $( document ).ready(function() {
+
+//////////////////////////////
+///// CAROUSEL
+/////////////////////////////
+  $("#carousel").animate({width:'toggle'},1500);
+
+
+
+//////////////////////////////
+///// NAVBAR
+/////////////////////////////
+
 $("#presentation").hide();
 $("#menu").hide();
 $("#quisommesnous").hide();
@@ -46,10 +57,3 @@ $("#quisommesnous").hide();
 
   });
 });
-
-
-
-//     // Event setup using a convenience method
-// $( "p" ).click(function() {
-//     console.log( "You clicked a paragraph!" );
-// });
