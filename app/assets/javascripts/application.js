@@ -18,7 +18,33 @@
 // A $( document ).ready() block.
 
 $( document ).ready(function() {
-    
+$("#presentation").hide();
+$("#menu").hide();
+$("#quisommesnous").hide();
+
+  $( "#tabs1" ).click(function( event ) {
+    event.preventDefault();
+    $("#presentation").show("slow");
+    $("#menu").hide();
+    $("#quisommesnous").hide();
+
+    // console.log("prez");
+  });
+  $( "#tabs2" ).click(function( event ) {
+    event.preventDefault();
+    $("#menu").show("slow");
+    $("#presentation").hide();
+    $("#quisommesnous").hide();
+    // console.log( "menu" );
+  });
+  $( "#tabs3" ).click(function( event ) {
+    event.preventDefault();
+    $("#quisommesnous").show("slow");
+    $("#menu").hide();
+    $("#presentation").hide();
+    // console.log( "quisommesnous" );
+
+  });
 });
 
 
