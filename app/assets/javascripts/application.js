@@ -21,8 +21,9 @@ $( document ).ready(function() {
 //////////////////////////////
 ///// CAROUSEL
 /////////////////////////////
-  $("#carousel").animate({width:'toggle'},1500);
-
+// $("#carousel").animate({width:'toggle'},1500);
+  $("#carousel").animate({"margin-right": '+=2000'},1500);
+  // $("#carousel").show("slide", { direction: "left" }, 1000);
 
 
 //////////////////////////////
